@@ -36,5 +36,11 @@
     "nodemon": "^2.0.18",
     "supertest": "^6.2.4"
   },
+  "jest":{
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts}",
+      "!**/node_modules/**"
+    ]
+  },
   "description": ""
 }
